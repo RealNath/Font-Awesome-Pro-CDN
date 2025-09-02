@@ -4,7 +4,7 @@ Automatically obtain the latest Pro CDN of Font Awesome icons (for educational p
 
 Latest release: v7.0.0
 ```html
-<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
 ```
 
 ## Author's Note
