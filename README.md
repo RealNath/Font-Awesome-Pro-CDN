@@ -4,5 +4,8 @@ Automatically obtain the latest Pro icons of Font Awesome (for educational purpo
 
 Latest release:
 ```
+<link rel="stylesheet" href="https://example.com/releases/v7.0.0/css/all.css">
+```
+```
 <link rel="stylesheet" href="https://example.com/releases/v6.7.2/css/all.css">
 ```
