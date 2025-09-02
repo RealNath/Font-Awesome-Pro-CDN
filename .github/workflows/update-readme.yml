@@ -41,7 +41,7 @@ jobs:
                   if [ -z "$LATEST_TAG" ]; then
                       echo "No latest tag found. Exiting"
                       echo "tag=" >> "$GITHUB_OUTPUT"
-                      exit 0
+                      exit 1
                   fi
 
                   # Else
@@ -54,7 +54,7 @@ jobs:
               run: |
                   if [ -z "$LATEST_TAG" ]; then
                       echo "No tag to write. Exiting"
-                      exit 0
+                      exit 1
                   fi
 
                   # Put the latest tag onto README
@@ -67,7 +67,7 @@ jobs:
                   git add README.md
                   if git diff --cached --quiet; then
                       echo "README already up-to-date"
-                      exit 0
+                      exit 1
                   fi
                   git commit -m "ci: Updated to $LATEST_TAG"
                   git push
