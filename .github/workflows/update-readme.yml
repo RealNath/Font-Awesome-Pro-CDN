@@ -59,7 +59,7 @@ jobs:
 
                   # Build replacement HTML line and put it into README
                   REPLACEMENT="<link rel=\"stylesheet\" href=\"https://example.com/releases/v$LATEST_TAG/css/all.css\">"
-                  sed -i -E "s|^(Latest release:).*|${REPLACEMENT}|" README.md
+                  sed -i -E "s|^(Latest release:).*|\1 \`$REPLACEMENT\`|" README.md
                   
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config user.name "github-actions[bot]"
