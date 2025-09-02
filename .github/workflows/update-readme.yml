@@ -33,9 +33,7 @@ jobs:
                       -H "Authorization: Bearer $GITHUB_TOKEN" \
                       -H "Accept: application/vnd.github+json" \
                       "https://api.github.com/repos/FortAwesome/Font-Awesome/releases/latest" \
-                      | python -c "
-                          import sys, json;
-                          print(json.load(sys.stdin).get('tag_name',''))
+                      | python -c "import sys, json; print(json.load(sys.stdin).get('tag_name',''))
                       "
                   )
                   
