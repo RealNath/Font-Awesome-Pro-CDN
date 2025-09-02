@@ -1,0 +1,75 @@
+name: README Update
+
+on:
+    schedule:
+        - cron: '*/30 * * * *'
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+concurrency:
+    group: readme-update
+    cancel-in-progress: true
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v4
+              with:
+                  persist-credentials: true
+                  
+            - name: Get latest release tag
+              id: get_tag
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  echo "Querying latest release"
+                  
+                  # Obtain tag_name's value
+                  LATEST_TAG=$(curl -s \
+                      -H "Authorization: Bearer $GITHUB_TOKEN" \
+                      -H "Accept: application/vnd.github+json" \
+                      "https://api.github.com/repos/FortAwesome/Font-Awesome/releases/latest" \
+                      | python -c "
+                          import sys, json;
+                          print(json.load(sys.stdin).get('tag_name',''))
+                      "
+                  )
+                  
+                  # If tag_name doesn't exist
+                  if [ -z "$LATEST_TAG" ]; then
+                      echo "No latest tag found. Exiting"
+                      echo "tag=" >> "$GITHUB_OUTPUT"
+                      exit 0
+                  fi
+
+                  # Else
+                  echo "tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
+                  echo "Found: $LATEST_TAG"
+
+            - name: Update README
+              env:
+                  LATEST_TAG: ${{ steps.get_tag.outputs.tag }}
+              run: |
+                  if [ -z "$LATEST_TAG" ]; then
+                      echo "No tag to write. Exiting"
+                      exit 0
+                  fi
+
+                  # Put the latest tag onto README
+                  sed -i -E "s/^(Latest release:).*/\1 $LATEST_TAG/" README.md
+                  
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git config user.name "github-actions[bot]"
+                  
+                  # Commit and push
+                  git add README.md
+                  if git diff --cached --quiet; then
+                      echo "README already up-to-date"
+                      exit 0
+                  fi
+                  git commit -m "ci: Updated to $LATEST_TAG"
+                  git push
