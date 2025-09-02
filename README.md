@@ -2,9 +2,9 @@
 
 Automatically obtain the latest Pro CDN of Font Awesome icons (for educational purpose and personal testing only)
 
-Latest release: v7.0.0
+Latest release: v7.0.1
 ```html
-<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css">
 ```
 
 ## Author's Note
