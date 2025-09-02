@@ -3,8 +3,8 @@
 Automatically obtain the latest Pro CDN of Font Awesome icons (for educational purpose and personal testing only)
 
 Latest release: v7.0.0
-```
-<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
+```html
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 ```
 
 ## Author's Note
