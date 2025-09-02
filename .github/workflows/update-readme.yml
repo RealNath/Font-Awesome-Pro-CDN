@@ -30,7 +30,7 @@ jobs:
                   
                   # Obtain tag_name's value
                   LATEST_TAG=$(curl -s \
-                      -H "Authorization: Bearer $GITHUB_TOKEN" \
+                      -H "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                       -H "Accept: application/vnd.github+json" \
                       "https://api.github.com/repos/FortAwesome/Font-Awesome/releases/latest" \
                       | python -c "import sys, json; print(json.load(sys.stdin).get('tag_name',''))
@@ -57,8 +57,9 @@ jobs:
                       exit 1
                   fi
 
-                  # Put the latest tag onto README
-                  sed -i -E "s/^(Latest release:).*/\1 $LATEST_TAG/" README.md
+                  # Build replacement HTML line and put it into README
+                  REPLACEMENT="```bash\n<link rel=\"stylesheet\" href=\"https://site-assets.fontawesome.com/releases/v$LATEST_TAG/css/all.css\">```"
+                  sed -i -E "s|^(Latest release:).*|${LATEST_TAG}\n${REPLACEMENT}|" README.md
                   
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config user.name "github-actions[bot]"
@@ -69,5 +70,5 @@ jobs:
                       echo "README already up-to-date"
                       exit 1
                   fi
-                  git commit -m "ci: Updated to $LATEST_TAG"
+                  git commit -m "docs: Updated to $LATEST_TAG"
                   git push
