@@ -58,7 +58,7 @@ jobs:
                   fi
 
                   # Build replacement HTML line and put it into README
-                  REPLACEMENT="`<link rel=\"stylesheet\" href=\"https://site-assets.fontawesome.com/releases/v$LATEST_TAG/css/all.css\">`"
+                  REPLACEMENT="<link rel=\"stylesheet\" href=\"https://example.com/releases/v$LATEST_TAG/css/all.css\">"
                   sed -i -E "s|^(Latest release:).*|${REPLACEMENT}|" README.md
                   
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
