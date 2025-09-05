@@ -5,7 +5,7 @@ Automatically obtain the latest Pro CDN of Font Awesome icons for free (for educ
 Latest release: v7.0.1
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css">
 ```
 
 <br>
@@ -15,10 +15,10 @@ Some icon families may not work above, try using the specific family below:
 <summary>Classic</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/thin.css">
 ```
 
 </details>
@@ -27,10 +27,10 @@ Some icon families may not work above, try using the specific family below:
 <summary>Duotone</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/duotone.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/duotone-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/duotone-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/duotone-thin.css">
 ```
 
 </details>
@@ -39,10 +39,10 @@ Some icon families may not work above, try using the specific family below:
 <summary>Sharp</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-thin.css">
 ```
 
 </details>
@@ -51,10 +51,10 @@ Some icon families may not work above, try using the specific family below:
 <summary>Sharp Duotone</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-duotone-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-duotone-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-duotone-thin.css">
 ```
 
 </details>
@@ -63,7 +63,7 @@ Some icon families may not work above, try using the specific family below:
 <summary>Brands</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/brands.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/brands.css">
 ```
 
 </details>
@@ -72,7 +72,7 @@ Some icon families may not work above, try using the specific family below:
 <summary>Chisel</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/chisel-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/chisel-regular.css">
 ```
 
 </details>
@@ -81,7 +81,7 @@ Some icon families may not work above, try using the specific family below:
 <summary>Etch</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/etch-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/etch-solid.css">
 ```
 
 </details>
@@ -90,9 +90,9 @@ Some icon families may not work above, try using the specific family below:
 <summary>Jelly</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-duo-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-fill-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/jelly-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/jelly-duo-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/jelly-fill-regular.css">
 ```
 
 </details>
@@ -101,8 +101,8 @@ Some icon families may not work above, try using the specific family below:
 <summary>Notdog</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-duo-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/notdog-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/notdog-duo-solid.css">
 ```
 
 </details>
@@ -111,8 +111,8 @@ Some icon families may not work above, try using the specific family below:
 <summary>Slab</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-press-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/slab-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/slab-press-regular.css">
 ```
 
 </details>
@@ -121,7 +121,7 @@ Some icon families may not work above, try using the specific family below:
 <summary>Thumprint</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thumbprint-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/thumbprint-light.css">
 ```
 
 </details>
@@ -130,7 +130,7 @@ Some icon families may not work above, try using the specific family below:
 <summary>Whiteboard</summary>
 
 ```html
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/whiteboard-semibold.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/whiteboard-semibold.css">
 ```
 
 </details>
