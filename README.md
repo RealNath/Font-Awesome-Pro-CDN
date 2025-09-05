@@ -8,8 +8,29 @@ Latest release: v7.0.1
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css">
 ```
 
-<br>
-Some icon families may not work above, try using the specific family below:
+Some icon families may not work with the `all.css`, try using the specific family (scroll down)
+
+To obtain an individual icon's svg directly:
+
+```
+https://site-assets.fontawesome.com/releases/v7.0.1/svgs-full/{icon-family}-{style}/{icon-name}.svg
+```
+
+```
+https://site-assets.fontawesome.com/releases/v7.0.1/svgs/{icon-family}-{style}/{icon-name}.svg
+```
+
+Note:
+
+* List of available icon families and their styles: <https://docs.fontawesome.com/web/dig-deeper/styles>
+* Replace `{icon-family}` with the `kebab-case` form of an icon family, in lowercase
+  * Exception: Classic: `classic-` is omitted
+    * e.g Classic, Solid, globe-stand: `https://site-assets.fontawesome.com/releases/v7.0.1/svgs-full/solid/globe-stand.svg`
+* Replace `{style}` with a family's style, in lowercase
+  * Exception: Duotone Solid: `-solid` is omitted
+    * e.g Duotone, Solid, globe-stand: `https://site-assets.fontawesome.com/releases/v7.0.1/svgs-full/duotone/globe-stand.svg`
+* Replace `{icon-name}` with the icon name found in FA's website
+* Example: Sharp Duotone, Light, global-stand: `https://site-assets.fontawesome.com/releases/v7.0.1/svgs/sharp-duotone-light/globe-stand.svg`
 
 <details>
 <summary>Classic</summary>
