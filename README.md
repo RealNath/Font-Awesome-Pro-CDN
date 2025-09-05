@@ -158,7 +158,7 @@ Note:
 
 ## Author's Note
 
-This small automated project was created for educational purposes only. This was created to practice and play with GitHub Actions. This repository was publicized as a demonstration and example of GitHub Actions's automation for you to peek at the code.
+This small automated project was created for educational purposes only. This was created to practice and play with GitHub Actions. This repository was publicized as a demonstration and example of GitHub Actions's automation for you to peek at the code, as well as previewing the icons before buying Pro.
 
-Only use this for personal testing or previewing the way your websites look with the icons before paying the premium (free trial). Do support Font Awesome and afford their Pro plan here!  
+Only use this for personal testing or previewing the way your websites look with the icons before paying the premium ("free trial"). Do support Font Awesome and buy their Pro plan here if you can afford it!  
 <https://fontawesome.com/plans>
